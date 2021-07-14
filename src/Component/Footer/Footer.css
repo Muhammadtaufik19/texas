@@ -1,0 +1,36 @@
+.bg-footer{
+    background-color: #343a40;
+    height: 70px;
+    padding-top: 25px;
+    
+    
+}
+
+.content-footer{
+    display: flex;
+    
+    /* justify-content: space-around; */
+}
+
+.content-footer span {
+    margin-left: 10px;
+}
+
+.fa-linkedin:hover{
+    color:black;
+}
+
+.fa-instagram:hover{
+    color:black;
+}
+
+.fa-github:hover{
+    color:black;
+    
+}
+
+.container p a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}

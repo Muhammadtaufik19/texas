@@ -1,0 +1,19 @@
+.list-game{
+    height: 200px;
+}
+
+/* .cards{
+    width: 370px;
+} */
+
+@media screen and (max-width :960px){
+    .cards{
+        margin-top: 15px;
+    }  
+  }
+
+  Button .ling{
+      /* background-color: white; */
+      color: white;
+      text-decoration: none;
+  }

@@ -1,0 +1,31 @@
+.bg-cardGame{
+    padding: 100px 0;
+    background-color: #343a40;
+    overflow: hidden;
+}
+
+.card-games{
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card-games img:hover{
+    cursor: pointer;
+    background-color: #36404b;
+}
+
+.conten{
+    margin : 90px 0;
+}
+
+.conten h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.conten p{
+    line-height: 35px;
+}

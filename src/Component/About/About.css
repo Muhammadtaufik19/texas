@@ -1,0 +1,17 @@
+.container{
+    color: white;
+}
+
+.content{
+    text-align: center;
+    line-height: 40px;
+    /* padding-bottom: 30px; */
+    background-color: #343a40;
+    margin-bottom: 0px;
+    /* margin-bottom: 10px; */
+}
+
+
+.keunggulan{
+    line-height: 40px;
+}

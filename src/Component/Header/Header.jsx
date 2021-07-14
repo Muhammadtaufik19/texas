@@ -17,8 +17,14 @@ export default function Header() {
     <div className="bg-header">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container className="container-header">
-          <Navbar.Brand href="/">
-            <img src={logo} className="align-top" alt="React Bootstrap logo" />
+          <Navbar.Brand>
+            <Link to="/">
+              <img
+                src={logo}
+                className="align-top"
+                alt="React Bootstrap logo"
+              />
+            </Link>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav " />
@@ -27,25 +33,41 @@ export default function Header() {
             className="justify-content-end"
           >
             <Nav className="ml-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link>
+                <Link className="home" to="/">
+                  Home
+                </Link>
+              </Nav.Link>
 
               {/* =======================================================Cards */}
               <NavDropdown title="Card Games" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/card-game">
-                  Poker Classic
+                <NavDropdown.Item>
+                  <Link to="/card-game">Poker Classic</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/card-game">
-                  Texas Poker
+                <NavDropdown.Item>
+                  <Link to="/card-game">Texas Poker</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/card-game">Domino QQ</NavDropdown.Item>
-                <NavDropdown.Item href="/card-game">Big Two</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/card-game">Domino QQ</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/card-game">Big Two</Link>
+                </NavDropdown.Item>
               </NavDropdown>
               {/* ========================================================= Dingdong */}
               <NavDropdown title="Dingdong" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/dingdong">36D</NavDropdown.Item>
-                <NavDropdown.Item href="/dingdong">24D</NavDropdown.Item>
-                <NavDropdown.Item href="/dingdong">12D</NavDropdown.Item>
-                <NavDropdown.Item href="/dingdong">SICBO</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/dingdong">36D</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/dingdong">24D</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/dingdong">12D</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/dingdong">SICBO</Link>
+                </NavDropdown.Item>
               </NavDropdown>
               <Button variant="outline-success" style={{ color: "white" }}>
                 <Link to="/register">Register</Link>

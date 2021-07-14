@@ -5,3 +5,7 @@ nav Button:hover{
     text-decoration: none;
 }
 
+nav .home{
+    color: darkgrey;
+    
+}

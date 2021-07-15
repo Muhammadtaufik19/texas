@@ -174,15 +174,9 @@ const Register = () => {
                 />
               </Form.Group>
 
-              {username && katasandi && konfirmasi === "" ? (
-                <Button variant="primary" type="submit">
-                  Lengkapo Form
-                </Button>
-              ) : (
-                <Button variant="primary" type="submit">
-                  Submit
-                </Button>
-              )}
+              <Button variant="primary" type="submit">
+                Submit
+              </Button>
             </Form>
           </div>
         </div>
